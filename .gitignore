@@ -1,0 +1,8 @@
+# PhpStorm project files.
+.idea
+# JS excludes
+node_modules
+dist
+*compile-cache*
+mix-manifest.json
+package-lock.json

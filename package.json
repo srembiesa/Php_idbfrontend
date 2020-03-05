@@ -1,0 +1,30 @@
+{
+  "name": "business",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.22.10",
+    "sass-loader": "^7.3.1"
+  },
+  "dependencies": {
+    "bowser": "^2.7.0",
+    "chart.js": "^2.8.0",
+    "fs-extra": "^8.1.0",
+    "pdfjs-dist": "^2.2.228",
+    "spark-md5": "^3.0.0",
+    "vue": "^2.6.10"
+  }
+}
